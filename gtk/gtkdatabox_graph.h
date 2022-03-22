@@ -19,7 +19,7 @@
 
 /**
  * SECTION:gtkdatabox_graph
- * @short_description: An abstract anchestor for all "real" graphs.
+ * @short_description: An abstract ancestor for all "real" graphs.
  * @include: gtkdatabox_graph.h
  * @see_also: #GtkDatabox, #GtkDataboxPoints, #GtkDataboxLines, #GtkDataboxBars, #GtkDataboxGrid, #GtkDataboxCrossSimple
  *

@@ -19,7 +19,7 @@
 
 /**
  * SECTION:gtkdatabox_xyyc_graph
- * @short_description: An abstract anchestor for all graphs which display xyy-values (x, y1 and y2 values) in one color.
+ * @short_description: An abstract ancestor for all graphs which display xyy-values (x, y1 and y2 values) in one color.
  * @include: gtkdatabox_xyyc_graph.h
  * @see_also: #GtkDatabox, #GtkDataboxOffsetBars
  *
