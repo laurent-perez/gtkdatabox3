@@ -2404,7 +2404,7 @@ gtk_databox_values_to_xpixels (GtkDatabox * box, gint16 * pixels,
    tf = priv->translation_factor_x;
    minvis = priv->visible_left;
 
-   indx = start * stride;
+   indx = start;
    i = 0;
    do
    {
@@ -2479,7 +2479,7 @@ gtk_databox_values_to_ypixels (GtkDatabox * box, gint16 * pixels,
    tf = priv->translation_factor_y;
    minvis = priv->visible_top;
 
-   indx = start * stride;
+   indx = start;
    i = 0;
    do
    {
