@@ -2381,7 +2381,7 @@ gtk_databox_value_to_pixel_y (GtkDatabox * box, gfloat value)
  * @vtype: GType of @values. 
  * @maxlen: maximum length of the arrays.
  * @start: first value to compute.
- * @stride: bytes per row of plotting.
+ * @stride: values per row of plotting.
  * @len: how many values to compute.
  *
  * Calculates the horizontal coordinates for @pixels which represents the x @values.
@@ -2456,7 +2456,7 @@ gtk_databox_values_to_xpixels (GtkDatabox * box, gint16 * pixels,
  * @vtype: GType of @values. 
  * @maxlen: maximum length of the arrays.
  * @start: first value to compute.
- * @stride: bytes per row of plotting.
+ * @stride: values per row of plotting.
  * @len: how many values to compute.
  *
  * Calculates the vertical coordinates for @pixels which represents the y @values.
